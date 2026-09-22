@@ -70,3 +70,47 @@ My approach is:
 ---
 
 Learning HTML step by step.
+# HTML Practice – Tables and Forms
+
+Today I practiced core HTML concepts related to **tables, forms, inputs, buttons, labels, and form data submission**.
+
+## Topics Covered
+
+### Tables
+- Creating tables using `<table>`
+- Rows using `<tr>`
+- Header cells using `<th>`
+- Data cells using `<td>`
+- Table captions
+- Table semantic tags:
+  - `<thead>`
+  - `<tbody>`
+- `rowspan`
+- `colspan`
+
+I created normal tables and also practiced merged cells using `rowspan` and `colspan`. :chatgpt-content-reference{index="0"} :chatgpt-content-reference{index="1"}
+
+### Forms
+- `<form>`
+- Text input
+- Password input
+- Number input
+- Time input
+- Color input
+
+I practiced different input types inside forms. :chatgpt-content-reference{index="2"}
+
+### Labels and Placeholders
+- Connecting `<label>` with an input using `for`
+- Matching `for` with the input `id`
+- Using `placeholder`
+
+Example concept:
+
+```html
+<label for="username">Enter Username:</label>
+<input
+  type="text"
+  id="username"
+  placeholder="Enter Username"
+/>
