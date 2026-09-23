@@ -114,3 +114,42 @@ Example concept:
   id="username"
   placeholder="Enter Username"
 />
+## HTML Progress — Sep 23
+
+Continued practicing HTML forms and started combining the concepts into a complete portfolio project.
+
+### Concepts Practiced
+
+- Checkbox input
+- Radio buttons
+- Range input
+- Dropdown using `<select>` and `<option>`
+- `<textarea>`
+- `label`, `id`, `name`, and `value`
+- Form submission buttons
+
+### Portfolio Project Started
+
+Built the initial structure of a personal portfolio website using:
+
+- Semantic tags such as `<header>`, `<nav>`, and sections
+- Internal navigation using IDs
+- Headings and paragraphs
+- Images
+- Ordered and unordered lists
+- Education table using `<thead>` and `<tbody>`
+- Skills section
+- About section
+- Projects section started
+
+### Next Step
+
+Complete the portfolio project by adding:
+
+- Projects
+- Course registration form
+- Contact section
+- Footer
+- Final HTML cleanup
+
+After completing the project, move to **CSS fundamentals**.
