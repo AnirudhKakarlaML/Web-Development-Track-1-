@@ -203,3 +203,12 @@ I also practiced debugging common HTML issues such as:
 HTML fundamentals are now complete.
 
 Next: **CSS fundamentals and styling this project.**
+### CSS Progress — Sep 24
+
+- Learned how to link an external CSS stylesheet
+- Practiced element selectors
+- Learned `color` and `background-color`
+- Practiced named colors
+- Learned RGB color values
+- Learned HEX color codes
+- Completed basic CSS exercises
