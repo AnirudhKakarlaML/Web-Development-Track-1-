@@ -153,3 +153,53 @@ Complete the portfolio project by adding:
 - Final HTML cleanup
 
 After completing the project, move to **CSS fundamentals**.
+## HTML Project Completed
+
+Completed a full HTML-only portfolio project to revise and apply the core HTML concepts learned so far.
+
+### Concepts Used
+
+- Semantic HTML structure
+- Headings and paragraphs
+- Internal navigation using IDs
+- Images and alt text
+- Ordered and unordered lists
+- Tables with captions, headers and rows
+- Forms and labels
+- Text, email, telephone and date inputs
+- Radio buttons
+- Checkboxes
+- Dropdown menus using `<select>` and `<option>`
+- Textarea
+- Submit and reset buttons
+- `id`, `name`, `value`, `placeholder`
+- Contact links
+- `mailto:` links
+- Footer structure
+
+### Project Sections
+
+- Header and Navigation
+- About Me
+- Skills
+- Education
+- Projects
+- Course Registration Form
+- Contact
+
+### What I Learned
+
+This project helped me understand how individual HTML elements connect together to form a complete webpage instead of practicing each tag separately.
+
+I also practiced debugging common HTML issues such as:
+- Matching labels with input IDs
+- Grouping radio buttons correctly
+- Using unique IDs
+- Structuring tables properly
+- Using meaningful form values
+
+## Next Step
+
+HTML fundamentals are now complete.
+
+Next: **CSS fundamentals and styling this project.**
