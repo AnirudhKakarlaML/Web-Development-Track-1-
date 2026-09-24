@@ -212,3 +212,11 @@ Next: **CSS fundamentals and styling this project.**
 - Learned RGB color values
 - Learned HEX color codes
 - Completed basic CSS exercises
+### Developer Profile - CSS Practice
+
+- Linked an external CSS stylesheet
+- Practiced HEX colors
+- Practiced RGB colors
+- Styled headings, paragraphs, and links
+- Changed page background and link background
+- Built a small developer profile using only concepts learned so far
