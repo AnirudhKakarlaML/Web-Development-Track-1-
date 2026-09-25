@@ -297,3 +297,22 @@ CSS-Practice/
 ├── logo.html
 ├── logo.css
 └── README.md
+### `focus.html`
+A practice webpage created to apply CSS styling to headings, paragraphs, and links.
+
+### `focus.css`
+Stylesheet for `focus.html`.
+
+Concepts practiced:
+- Background color
+- HEX colors
+- RGB colors
+- Font size
+- Font weight
+- Text alignment
+- Letter spacing
+- Line height
+- Font family
+- Text decoration
+- Text transform
+- Link styling
