@@ -220,3 +220,80 @@ Next: **CSS fundamentals and styling this project.**
 - Styled headings, paragraphs, and links
 - Changed page background and link background
 - Built a small developer profile using only concepts learned so far
+# CSS Basics Practice
+
+This repository contains my practice work while learning the fundamentals of CSS.
+
+## Concepts Practiced
+
+- Linking external CSS files
+- CSS element selectors
+- Text color
+- Background color
+- Named colors
+- RGB colors
+- HEX colors
+- Text alignment
+- Font weight
+- Text decoration
+- Line height
+- Letter spacing
+- Font size using pixels
+- Font family
+- Text transform
+
+## Files
+
+### `index.html`
+Main HTML practice page containing:
+- `h1`, `h2`, and `h3` headings
+- Paragraphs
+- GitHub link
+- Different sections for CSS styling practice
+
+### `style.css`
+CSS file connected to `index.html`.
+
+Used to practice:
+- Heading styling
+- Paragraph styling
+- Link styling
+- Font sizes
+- Font weights
+- Text alignment
+- Letter spacing
+- Line height
+- Text decoration
+
+### `logo.html`
+Simple HTML page created for logo/text styling practice.
+
+Contains the words:
+
+- `apna`
+- `college`
+
+### `logo.css`
+CSS file connected to `logo.html`.
+
+Used to practice:
+- HEX colors
+- Font family
+- Font size
+- Font weight
+- Letter spacing
+- Line height
+- Text decoration
+- Text alignment
+- Text transformation
+
+## File Structure
+
+```text
+CSS-Practice/
+│
+├── index.html
+├── style.css
+├── logo.html
+├── logo.css
+└── README.md
