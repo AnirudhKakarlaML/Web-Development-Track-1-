@@ -1,0 +1,45 @@
+body{
+    background-color: #f4f4f4;
+    font-size:16px;
+    font-family: Arial,  sans-serif;
+}
+h1{
+    color:#1f2937;
+    font-size: 42px;
+    font-weight: 900;
+    text-align:center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+}
+h2{
+    color:rgb(37,99,235);
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-decoration: underline;
+}
+h3{
+    color:#374151;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+}
+
+p{
+    color:#4b5563;
+    font-size:16px;
+    font-weight:normal;
+    line-height: 1.7;
+    text-align: left;
+    letter-spacing: normal;
+
+}
+a{
+    color:#2563eb;
+    font-size:16px;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+}
