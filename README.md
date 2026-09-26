@@ -98,6 +98,8 @@ Each folder is a small page with its own `index.html` and `style.css`.
 | [rgb-hex-colors/](07-css-basics/rgb-hex-colors/) | RGB and HEX color values |
 | [developer-profile/](07-css-basics/developer-profile/) | A developer profile card using everything learned so far |
 | [focus-mode/](07-css-basics/focus-mode/) | A full practice page: colors, fonts, spacing, text decoration and links |
+| [selectors/](07-css-basics/selectors/) | Quora-style page: universal (`*`), element, grouped (`h1,h3`), id (`#login`) and class (`.follow`) selectors |
+| [selectors/PracticeQs.html](07-css-basics/selectors/PracticeQs.html) | Practice: Facebook-style header styled with id (`#searchbtn`) and class (`.userbtn`) selectors (uses `style1.css`) |
 
 ---
 
