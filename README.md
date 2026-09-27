@@ -100,6 +100,8 @@ Each folder is a small page with its own `index.html` and `style.css`.
 | [focus-mode/](07-css-basics/focus-mode/) | A full practice page: colors, fonts, spacing, text decoration and links |
 | [selectors/](07-css-basics/selectors/) | Quora-style page: universal (`*`), element, grouped (`h1,h3`), id (`#login`) and class (`.follow`) selectors |
 | [selectors/PracticeQs.html](07-css-basics/selectors/PracticeQs.html) | Practice: Facebook-style header styled with id (`#searchbtn`) and class (`.userbtn`) selectors (uses `style1.css`) |
+| [selectors/selectorstype.html](07-css-basics/selectors/selectorstype.html) | Combinators and attribute selectors: descendant (`p a`), sibling (`p+h3`), child (`span>button`), attribute (`input[type="text"]`), plus `:nth-of-type()` (uses `selectorstype.css`) |
+| [selectors/pseudoclass.html](07-css-basics/selectors/pseudoclass.html) | Pseudo-classes: `:hover`, `:active`, and `:checked` on radio buttons (uses `pseudoclass.css`) |
 
 ---
 
