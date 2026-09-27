@@ -1,0 +1,44 @@
+*{
+    font-family: Arial , sans-serif;
+}
+p{
+    color:#444;
+    font-size: 16px;
+}
+#main-title{
+    color:darkblue;
+    font-size: 32px;
+}
+.card{
+    background-color: lightgray;
+}
+.card p{
+    color:darkgreen;
+}
+.card > h2{
+    color:maroon;
+}
+h2+p{
+    color:purple;
+}
+h2~p{
+    font-size: 18px;
+}
+nav a:hover{
+    color:red;
+}
+ul li:first-child{
+    color:blue;
+}
+li:last-child{
+    color:darkorange;
+}
+li:nth-of-type(2){
+    color:green;
+}
+button:active{
+    color: red;
+}
+.card:hover{
+    background-color: lightyellow;
+}

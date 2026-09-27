@@ -102,6 +102,7 @@ Each folder is a small page with its own `index.html` and `style.css`.
 | [selectors/PracticeQs.html](07-css-basics/selectors/PracticeQs.html) | Practice: Facebook-style header styled with id (`#searchbtn`) and class (`.userbtn`) selectors (uses `style1.css`) |
 | [selectors/selectorstype.html](07-css-basics/selectors/selectorstype.html) | Combinators and attribute selectors: descendant (`p a`), sibling (`p+h3`), child (`span>button`), attribute (`input[type="text"]`), plus `:nth-of-type()` (uses `selectorstype.css`) |
 | [selectors/pseudoclass.html](07-css-basics/selectors/pseudoclass.html) | Pseudo-classes: `:hover`, `:active`, and `:checked` on radio buttons (uses `pseudoclass.css`) |
+| [selectors/studentdashboard.html](07-css-basics/selectors/studentdashboard.html) | **Mini project: Student Dashboard.** Combines id, class, child (`.card > h2`), adjacent (`h2+p`) and general sibling (`h2~p`) selectors with `:hover`, `:active`, `:first-child`, `:last-child` and `:nth-of-type()` |
 
 ---
 
