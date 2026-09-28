@@ -1,0 +1,85 @@
+h3{
+    background-color: aqua !important;
+}
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+h1,h3{
+    color:#b92b37;
+}
+#login{
+    color:#b92b37;
+    color:white;
+}
+#signup{
+    color:#b92b37;
+    color:white;
+}
+.a{
+    color:#b92b37
+}
+
+p a{
+    color:purple;
+    background-color: antiquewhite;
+}/*descendant Selectors*/
+nav ul li a{
+    color:hotpink;
+}
+/*Sibling Combinator*/
+p+h3{
+    color:#b92b37
+}
+.a+button{
+    color:antiquewhite
+}
+/* child selector*/
+span>button{
+    color:aqua;
+}
+input[type="text"]{
+    color:beige;
+
+} /*Attribute Selector*/
+div[id=myid] p{
+
+    color:#b92b37;
+
+}
+button:hover{
+    color:#b92b37;
+}
+h3:hover{
+    text-decoration: overline;
+}
+button:active{
+    color: aquamarine;
+}
+p:active{
+    color:greenyellow;
+}
+/* :checked + sibling: colours the label right after a checked radio */
+input[type="radio"]:checked+label{
+    color:blueviolet;
+}
+h1::first-letter{
+    color:green;
+}
+p::first-line{
+    color:purple;
+}
+p::selection{
+    color:beige;
+}
+/*Cascading And Speificity*/
+h3{
+    color:yellow;
+}
+h3{
+    color:blue;
+}/*Blue here, but pseudoelement1.css (linked later) sets gold, and p+h3 (more specific) makes it #b92b37*/
+/*id > class > element*/
+/*more selectors > fewer selectors*/
+/*same specificity: last declared wins*/
+/*inline style beats all of these (see #login in the HTML); !important beats inline*/
