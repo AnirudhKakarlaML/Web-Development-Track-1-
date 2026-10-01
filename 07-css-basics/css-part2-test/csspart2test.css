@@ -1,0 +1,27 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: beige;
+    color:brown;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+}
+h2,h3{
+    color:burlywood;
+    font-weight: 800;
+}
+.task p{
+    color:antiquewhite;
+}
+#tasks > p::highlight{
+    color: red;
+}
+h3+p{
+    font-weight: bold;
+}
+#tasks h2~article{
+    color:red
+}

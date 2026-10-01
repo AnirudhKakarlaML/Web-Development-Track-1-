@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Part 2 Test</title>
+    <link rel="stylesheet" href="csspart2test.css">
+</head>
+<body>
+
+    <header>
+        <h1>Developer Dashboard</h1>
+
+        <nav>
+            <a href="#tasks">Tasks</a>
+            <a href="#progress">Progress</a>
+            <a href="https://developer.mozilla.org/">Docs</a>
+        </nav>
+    </header>
+
+    <section id="tasks">
+
+        <h2>Today's Tasks</h2>
+
+        <p>Complete your focused practice.</p>
+
+        <article class="task featured" data-status="active">
+            <h3>CSS Practice</h3>
+            <p class="status">Active</p>
+            <p>Finish selectors and pseudo-classes.</p>
+        </article>
+
+        <article class="task" data-status="locked">
+            <h3>JavaScript</h3>
+            <p class="status">Locked</p>
+            <p>Start after finishing CSS.</p>
+        </article>
+
+    </section>
+
+    <section id="progress">
+
+        <h2>Progress</h2>
+
+        <ul class="progress-list">
+            <li>HTML Complete</li>
+            <li>CSS Part 1 Complete</li>
+            <li>CSS Part 2 Complete</li>
+        </ul>
+
+        <input type="checkbox" id="complete">
+        <label for="complete">Practice Completed</label>
+
+        <br><br>
+
+        <input type="email" placeholder="Enter email">
+
+        <button disabled>Locked</button>
+
+    </section>
+
+</body>
+</html>

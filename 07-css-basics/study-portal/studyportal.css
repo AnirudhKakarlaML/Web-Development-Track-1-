@@ -1,0 +1,91 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+body{
+    color:#1f2937;
+    background-color: #f4f7fb;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    color: #1d4ed8;
+}
+h2,h3{
+    color:navy;
+    font-weight: 700;
+}
+.eyebrow{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #7c3aed;
+}
+#welcome{
+    color: #0f766e;
+    font-weight: 700;
+    text-align: center;
+}
+.course p{
+    color:#475569;
+    font-size:15px;
+
+}
+#courses>p{
+    color:#b45309;
+    font-weight: bold;
+}
+h3+p[class="status"]{
+    color:#be123c;
+    font-weight:bold;
+}
+#notices h2~p{
+    color: #7c2d12;
+    font-weight: 600;
+}
+[data-status="active"] h3{
+    color:#2563eb;
+    font-weight:bold;
+}
+nav a:hover{
+    color:#dc2626;
+    text-decoration: none;
+}
+input:focus{
+    color:#1d4ed8;
+    background-color: #dbeafe;
+}
+button:disabled{
+    color:#64748b;
+    background-color: #e2e8f0;
+}
+input:checked+label[for="ready"]{
+    color:#16a34a;
+    font-weight: 700;
+}
+.goals li:first-child{
+    color:#2563eb;
+    font-weight: 700;
+
+}
+.goals li:last-child{
+    color:#dc2626;
+    font-weight: 700;
+}
+article[class="course featured"]>h3::before{
+    content: "*";
+    color:#f59e0b;
+
+}
+.intro::first-letter{
+    font-size: 32px;
+    font-weight: bold;
+    color:#7c3aed
+}
+input[type="email"]{
+    background-color: #fef4c7;
+    color:#92400e;
+}
+a[href^="https"]{
+    color:#059669;
+    font-weight: 700;
+}

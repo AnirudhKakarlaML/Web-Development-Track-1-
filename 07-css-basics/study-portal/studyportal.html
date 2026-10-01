@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Study Portal</title>
+    <link rel="stylesheet" href="studyportal.css">
+</head>
+
+<body>
+
+    <header>
+        <p class="eyebrow">My Learning Space</p>
+
+        <h1>Student Study Portal</h1>
+
+        <nav>
+            <a href="#courses">Courses</a>
+            <a href="#notices">Notices</a>
+            <a href="#checkin">Study Check-In</a>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <section id="welcome-section">
+            <h2>Welcome Back</h2>
+
+            <p id="welcome" class="welcome">
+                Small steps build strong skills.
+            </p>
+
+            <p class="intro">
+                Today I will practice CSS with full focus.
+            </p>
+        </section>
+
+
+        <section id="courses">
+
+            <h2>My Courses</h2>
+
+            <p>Choose one lesson and give it your full attention.</p>
+
+
+            <article class="course" data-status="complete">
+
+                <h3>HTML Foundations</h3>
+
+                <p class="status">
+                    Completed
+                </p>
+
+                <p>
+                    Keep writing meaningful HTML.
+                </p>
+
+            </article>
+
+
+            <article class="course featured" data-status="active">
+
+                <h3>CSS Part 1-2</h3>
+
+                <p class="status">
+                    In Progress
+                </p>
+
+                <p>
+                    Practice colors, selectors and pseudo classes.
+                </p>
+
+            </article>
+
+
+            <article class="course" data-status="locked">
+
+                <h3>Future Lessons</h3>
+
+                <p class="status">
+                    Locked
+                </p>
+
+                <p>
+                    Complete today's practice before moving ahead.
+                </p>
+
+            </article>
+
+        </section>
+
+
+        <section id="notices">
+
+            <h2>Study Notices</h2>
+
+            <p class="notice urgent">
+                Complete today's CSS practice.
+            </p>
+
+            <p class="notice">
+                Save your work regularly.
+            </p>
+
+
+            <ul class="goals">
+
+                <li>Read every requirement carefully.</li>
+
+                <li>Test every selector.</li>
+
+                <li>Understand why your selector works.</li>
+
+            </ul>
+
+
+            <p>
+                Resource:
+                <a href="https://developer.mozilla.org/">
+                    MDN Web Docs
+                </a>
+            </p>
+
+        </section>
+
+
+        <section id="checkin">
+
+            <h2>Study Check-In</h2>
+
+            <form>
+
+                <p>
+                    <label for="name">Your Name</label>
+
+                    <input
+                        id="name"
+                        type="text"
+                        placeholder="Enter your name"
+                    >
+                </p>
+
+
+                <p>
+                    <label for="email">Email</label>
+
+                    <input
+                        id="email"
+                        type="email"
+                        placeholder="you@example.com"
+                    >
+                </p>
+
+
+                <p>
+                    <input
+                        id="ready"
+                        type="checkbox"
+                    >
+
+                    <label for="ready">
+                        I am ready to practice
+                    </label>
+                </p>
+
+
+                <button type="button">
+                    Start Practice
+                </button>
+
+
+                <button type="button" disabled>
+                    Next Lesson Locked
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            Student Study Portal | One focused session at a time.
+        </p>
+
+    </footer>
+
+</body>
+</html>

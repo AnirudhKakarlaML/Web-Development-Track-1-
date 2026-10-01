@@ -17,7 +17,7 @@ Web-Development-Track-1-/
 ├── 04-semantic-html/             <header>, <nav>, <main>, <section>, <footer>
 ├── 05-tables/                    Tables, <thead>/<tbody>, rowspan & colspan
 ├── 06-forms/                     Inputs, labels, buttons, checkbox, radio, select, range, textarea
-├── 07-css-basics/                One folder per mini page: index.html + style.css
+├── 07-css-basics/                One folder per mini page (HTML + its CSS): colors, selectors, pseudo-classes
 └── projects/                     Complete pages built from everything above
 ```
 
@@ -104,6 +104,8 @@ Each folder is a small page with its own `index.html` and `style.css`.
 | [selectors/pseudoclass.html](07-css-basics/selectors/pseudoclass.html) | Pseudo-classes: `:hover`, `:active`, and `:checked` on radio buttons (uses `pseudoclass.css`) |
 | [selectors/studentdashboard.html](07-css-basics/selectors/studentdashboard.html) | **Mini project: Student Dashboard.** Combines id, class, child (`.card > h2`), adjacent (`h2+p`) and general sibling (`h2~p`) selectors with `:hover`, `:active`, `:first-child`, `:last-child` and `:nth-of-type()` |
 | [selectors/pseudoelement.html](07-css-basics/selectors/pseudoelement.html) | Pseudo-elements (`::first-letter`, `::first-line`, `::selection`) and **cascade & specificity**: same-specificity rules (last one wins, even across two stylesheets), inline style, and `!important` (uses `pseudoelement.css` + `pseudoelement1.css`) |
+| [css-part2-test/](07-css-basics/css-part2-test/) | **CSS Part 2 test: Developer Dashboard.** Element, grouped, descendant (`.task p`), adjacent (`h3+p`) and general sibling (`#tasks h2~article`) selectors |
+| [study-portal/](07-css-basics/study-portal/) | **Mini project: Student Study Portal.** All selectors together: id, class, child, adjacent and general sibling, attribute (`[data-status="active"]`, `input[type="email"]`, `a[href^="https"]`), pseudo-classes (`:hover`, `:focus`, `:checked`, `:disabled`, `:first-child`, `:last-child`) and pseudo-elements (`::before`, `::first-letter`) |
 
 ---
 
@@ -123,6 +125,7 @@ Each folder is a small page with its own `index.html` and `style.css`.
 - **Sep (tables & forms):** Tables with `rowspan`/`colspan`, all main form inputs, labels and placeholders.
 - **Sep 23:** Checkbox, radio, range, select, textarea. Finished the **HTML-only portfolio** project. HTML fundamentals complete.
 - **Sep 24 onwards:** CSS fundamentals. External stylesheets, selectors, named/RGB/HEX colors, typography properties.
+- **Oct 1:** CSS Part 2 done: combinators, attribute selectors, pseudo-classes, pseudo-elements, specificity. Built the **CSS Part 2 test** and the **Student Study Portal** mini project.
 
 ## Learning approach
 
