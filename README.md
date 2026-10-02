@@ -18,6 +18,7 @@ Web-Development-Track-1-/
 ├── 05-tables/                    Tables, <thead>/<tbody>, rowspan & colspan
 ├── 06-forms/                     Inputs, labels, buttons, checkbox, radio, select, range, textarea
 ├── 07-css-basics/                One folder per mini page (HTML + its CSS): colors, selectors, pseudo-classes
+├── 08-box-model-and-layout/      Box model (height, width, padding, borders, margin), then display, positioning, Flexbox
 └── projects/                     Complete pages built from everything above
 ```
 
@@ -107,7 +108,12 @@ Each folder is a small page with its own `index.html` and `style.css`.
 | [css-part2-test/](07-css-basics/css-part2-test/) | **CSS Part 2 test: Developer Dashboard.** Element, grouped, descendant (`.task p`), adjacent (`h3+p`) and general sibling (`#tasks h2~article`) selectors |
 | [study-portal/](07-css-basics/study-portal/) | **Mini project: Student Study Portal.** All selectors together: id, class, child, adjacent and general sibling, attribute (`[data-status="active"]`, `input[type="email"]`, `a[href^="https"]`), pseudo-classes (`:hover`, `:focus`, `:checked`, `:disabled`, `:first-child`, `:last-child`) and pseudo-elements (`::before`, `::first-letter`) |
 | [inheritance/](07-css-basics/inheritance/) | **Inheritance:** forcing form controls (`input`, `button`) to take their parent's background with `inherit` (uses `inheritance.css`) |
-| [box-model/](07-css-basics/box-model/) | **Box model:** `height`/`width`, padding (per side and shorthand with 1–4 values), borders (`border-width`/`style`/`color`, `border` shorthand, per-side borders) and `border-radius` |
+
+## 08 · Box Model & Layout
+
+| Folder | What it practices |
+|---|---|
+| [borders-and-padding/](08-box-model-and-layout/borders-and-padding/) | `height`/`width`, padding (per side and shorthand with 1–4 values), borders (`border-width`/`style`/`color`, `border` shorthand, per-side borders) and `border-radius` |
 
 ---
 
