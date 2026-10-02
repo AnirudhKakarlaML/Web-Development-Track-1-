@@ -106,6 +106,8 @@ Each folder is a small page with its own `index.html` and `style.css`.
 | [selectors/pseudoelement.html](07-css-basics/selectors/pseudoelement.html) | Pseudo-elements (`::first-letter`, `::first-line`, `::selection`) and **cascade & specificity**: same-specificity rules (last one wins, even across two stylesheets), inline style, and `!important` (uses `pseudoelement.css` + `pseudoelement1.css`) |
 | [css-part2-test/](07-css-basics/css-part2-test/) | **CSS Part 2 test: Developer Dashboard.** Element, grouped, descendant (`.task p`), adjacent (`h3+p`) and general sibling (`#tasks h2~article`) selectors |
 | [study-portal/](07-css-basics/study-portal/) | **Mini project: Student Study Portal.** All selectors together: id, class, child, adjacent and general sibling, attribute (`[data-status="active"]`, `input[type="email"]`, `a[href^="https"]`), pseudo-classes (`:hover`, `:focus`, `:checked`, `:disabled`, `:first-child`, `:last-child`) and pseudo-elements (`::before`, `::first-letter`) |
+| [inheritance/](07-css-basics/inheritance/) | **Inheritance:** forcing form controls (`input`, `button`) to take their parent's background with `inherit` (uses `inheritance.css`) |
+| [box-model/](07-css-basics/box-model/) | **Box model:** `height`/`width`, padding (per side and shorthand with 1–4 values), borders (`border-width`/`style`/`color`, `border` shorthand, per-side borders) and `border-radius` |
 
 ---
 
@@ -126,6 +128,7 @@ Each folder is a small page with its own `index.html` and `style.css`.
 - **Sep 23:** Checkbox, radio, range, select, textarea. Finished the **HTML-only portfolio** project. HTML fundamentals complete.
 - **Sep 24 onwards:** CSS fundamentals. External stylesheets, selectors, named/RGB/HEX colors, typography properties.
 - **Oct 1:** CSS Part 2 done: combinators, attribute selectors, pseudo-classes, pseudo-elements, specificity. Built the **CSS Part 2 test** and the **Student Study Portal** mini project.
+- **Oct 2:** Inheritance (`inherit`) and the start of the box model: height, width, padding, borders and border-radius.
 
 ## Learning approach
 
@@ -135,7 +138,7 @@ Each folder is a small page with its own `index.html` and `style.css`.
 
 ## Next up
 
-- [ ] CSS box model, margin, padding, borders
+- [ ] CSS box model: margin (padding and borders done)
 - [ ] Display, positioning and Flexbox
 - [ ] Style the HTML portfolio with CSS
 - [ ] JavaScript fundamentals

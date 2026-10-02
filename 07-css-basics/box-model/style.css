@@ -1,0 +1,37 @@
+div{
+    height:200px;
+    width: 500px;
+    background-color: pink;
+    /* border-width:5px;
+    border-style: solid;
+    border-color: black; */
+    padding-top: 10px;
+    padding-left: 28px;
+}
+h1{
+    border-width:2px;
+    border-style: groove;
+    border-color: pink;
+}
+/*Border Short Hand*/
+div{
+    border:5px dashed blue;
+    border-top:5px groove pink;
+    border-left:7px dashed pink;
+
+    /* border-radius: 50px; */
+    border-top-left-radius: 20px;
+
+}
+/*Same Like This Right And Bottom Exists*/
+button{
+    border:10px solid black;
+    /* border-radius: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px; */
+    /* padding: 25px; /*4 sides */
+    /* padding: 10px 2px; top and bottom + left and right */
+    /* padding:10px 2px 9px */
+    padding:9px 8px 8px 2px;
+}
+
