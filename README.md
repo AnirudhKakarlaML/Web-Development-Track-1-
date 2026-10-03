@@ -18,7 +18,7 @@ Web-Development-Track-1-/
 ├── 05-tables/                    Tables, <thead>/<tbody>, rowspan & colspan
 ├── 06-forms/                     Inputs, labels, buttons, checkbox, radio, select, range, textarea
 ├── 07-css-basics/                One folder per mini page (HTML + its CSS): colors, selectors, pseudo-classes
-├── 08-box-model-and-layout/      Box model (height, width, padding, borders, margin), then display, positioning, Flexbox
+├── 08-box-model-and-layout/      Box model (height, width, padding, borders, margin), display, % units, then positioning, Flexbox
 └── projects/                     Complete pages built from everything above
 ```
 
@@ -114,6 +114,10 @@ Each folder is a small page with its own `index.html` and `style.css`.
 | Folder | What it practices |
 |---|---|
 | [borders-and-padding/](08-box-model-and-layout/borders-and-padding/) | `height`/`width`, padding (per side and shorthand with 1–4 values), borders (`border-width`/`style`/`color`, `border` shorthand, per-side borders) and `border-radius` |
+| [margin/](08-box-model-and-layout/margin/) | Margin with 1–4 values, revising padding and border shorthands (uses `margin.css`) |
+| [display-inline-block/](08-box-model-and-layout/display-inline-block/) | `display`: `inline` vs `block` vs `inline-block`; why height, width and vertical padding/margin don't apply to inline elements (uses `inlineblock.css`) |
+| [percentage-units/](08-box-model-and-layout/percentage-units/) | `%` units: width and margin as a percentage of the parent (uses `percentageunit.css`) |
+| [traffic-light/](08-box-model-and-layout/traffic-light/) | **Mini project: Traffic Light.** Nested boxes with margin and `border-radius: 50%` circles (uses `trafficlight.css`) |
 
 ---
 
@@ -135,6 +139,7 @@ Each folder is a small page with its own `index.html` and `style.css`.
 - **Sep 24 onwards:** CSS fundamentals. External stylesheets, selectors, named/RGB/HEX colors, typography properties.
 - **Oct 1:** CSS Part 2 done: combinators, attribute selectors, pseudo-classes, pseudo-elements, specificity. Built the **CSS Part 2 test** and the **Student Study Portal** mini project.
 - **Oct 2:** Inheritance (`inherit`) and the start of the box model: height, width, padding, borders and border-radius.
+- **Oct 3:** Margin, `display` (inline / block / inline-block) and percentage units. Built the **Traffic Light** mini project.
 
 ## Learning approach
 
@@ -144,7 +149,8 @@ Each folder is a small page with its own `index.html` and `style.css`.
 
 ## Next up
 
-- [ ] CSS box model: margin (padding and borders done)
-- [ ] Display, positioning and Flexbox
+- [x] CSS box model: height, width, padding, borders, margin
+- [x] Display: inline, block, inline-block
+- [ ] Units (em, rem, vh, vw), positioning and Flexbox
 - [ ] Style the HTML portfolio with CSS
 - [ ] JavaScript fundamentals
