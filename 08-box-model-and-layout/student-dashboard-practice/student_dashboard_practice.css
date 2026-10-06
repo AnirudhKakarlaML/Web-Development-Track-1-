@@ -1,0 +1,102 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    margin:0;
+    background-color: #F5F7Fa;
+    color:#1f2937;
+}
+#main-header{
+    background-color: #1e3a5f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 4px solid #16324f;
+}
+#main-header  p{
+    color:#cbd5e1;
+    font-size:14px;
+
+}
+.profile-card{
+    width:350px;
+    background-color: white;
+    border:2px solid #cbd5e1;
+    border-radius: 15px;
+    padding: 20px;
+    margin:30px;
+
+}
+.role{
+    color:#2563eb;
+    font-weight: bold;
+}
+.profile-card button{
+    background-color: #2563eb;
+    color:white;
+    padding:10px 18px;
+    border:none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.profile-card button:hover{
+    background-color: #1d4ed8;
+}
+.progress-card{
+    width: 300px;
+    background-color: white;
+    border:2px solid #cbd5e1;
+    border-radius:12px;
+    padding:15px;
+    margin:20px 30px;
+}
+.progress-card h3{
+    color:#1e3a5f;
+}
+.progress-card h3+p{
+    color:#64748b;
+    font-weight: bold;
+}
+.progress-card button{
+    background-color: #0f766e;
+    color:white;
+    padding:8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.progress-card button:hover{
+    background-color:#115e59;
+}
+.progress-card button:active{
+    background-color: #134e4a;
+}
+.tasks{
+    background-color: white;
+    border:2px solid #cbd5e1;
+    border-radius:12px;
+    padding:20px;
+    margin:30px;
+    width:350px;
+}
+.tasks p {
+    padding:10px;
+    border-bottom: 1px solid #e2e8f0;
+}
+.tasks p:hover{
+    background-color: #f1f5f9;
+    font-weight: bold;
+}
+footer{
+    text-align: center;
+    padding:15px;
+    border-top: 2px solid #cbd5e1;
+    color:#64748b;
+    margin-top:30px;
+}
+.progress-card:first-of-type {
+    border-color: #2563EB;
+    background-color: #EFF6FF;
+}
+.progress-card:nth-of-type(odd) {
+    background-color: #F8FAFC;
+}

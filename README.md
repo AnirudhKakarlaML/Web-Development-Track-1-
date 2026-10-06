@@ -118,6 +118,7 @@ Each folder is a small page with its own `index.html` and `style.css`.
 | [display-inline-block/](08-box-model-and-layout/display-inline-block/) | `display`: `inline` vs `block` vs `inline-block`; why height, width and vertical padding/margin don't apply to inline elements (uses `inlineblock.css`) |
 | [percentage-units/](08-box-model-and-layout/percentage-units/) | `%` units: width and margin as a percentage of the parent (uses `percentageunit.css`) |
 | [traffic-light/](08-box-model-and-layout/traffic-light/) | **Mini project: Traffic Light.** Nested boxes with margin and `border-radius: 50%` circles (uses `trafficlight.css`) |
+| [student-dashboard-practice/](08-box-model-and-layout/student-dashboard-practice/) | **Practice: Student Dashboard (box model edition).** Header, profile card, progress cards and task list built with padding, borders, `border-radius` and margin, plus `:hover`/`:active`, `h3+p` and `:first-of-type` / `:nth-of-type(odd)` (uses `student_dashboard_practice.css`) |
 
 ---
 
@@ -140,6 +141,7 @@ Each folder is a small page with its own `index.html` and `style.css`.
 - **Oct 1:** CSS Part 2 done: combinators, attribute selectors, pseudo-classes, pseudo-elements, specificity. Built the **CSS Part 2 test** and the **Student Study Portal** mini project.
 - **Oct 2:** Inheritance (`inherit`) and the start of the box model: height, width, padding, borders and border-radius.
 - **Oct 3:** Margin, `display` (inline / block / inline-block) and percentage units. Built the **Traffic Light** mini project.
+- **Oct 6:** Rebuilt the **Student Dashboard** as box model practice: cards, spacing and borders.
 
 ## Learning approach
 
