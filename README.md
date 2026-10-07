@@ -18,7 +18,7 @@ Web-Development-Track-1-/
 ├── 05-tables/                    Tables, <thead>/<tbody>, rowspan & colspan
 ├── 06-forms/                     Inputs, labels, buttons, checkbox, radio, select, range, textarea
 ├── 07-css-basics/                One folder per mini page (HTML + its CSS): colors, selectors, pseudo-classes
-├── 08-box-model-and-layout/      Box model (height, width, padding, borders, margin), display, % units, then positioning, Flexbox
+├── 08-box-model-and-layout/      Box model (height, width, padding, borders, margin), display, % units, em/rem, then positioning, Flexbox
 └── projects/                     Complete pages built from everything above
 ```
 
@@ -119,6 +119,7 @@ Each folder is a small page with its own `index.html` and `style.css`.
 | [percentage-units/](08-box-model-and-layout/percentage-units/) | `%` units: width and margin as a percentage of the parent (uses `percentageunit.css`) |
 | [traffic-light/](08-box-model-and-layout/traffic-light/) | **Mini project: Traffic Light.** Nested boxes with margin and `border-radius: 50%` circles (uses `trafficlight.css`) |
 | [student-dashboard-practice/](08-box-model-and-layout/student-dashboard-practice/) | **Practice: Student Dashboard (box model edition).** Header, profile card, progress cards and task list built with padding, borders, `border-radius` and margin, plus `:hover`/`:active`, `h3+p` and `:first-of-type` / `:nth-of-type(odd)` (uses `student_dashboard_practice.css`) |
+| [em-rem-units/](08-box-model-and-layout/em-rem-units/) | `em` vs `rem`: `em` is relative to the parent's font size (and to the element's own font size for padding), so nested `em` values snowball; `rem` is always relative to the root `<html>` font size (uses `emrem.css`) |
 
 ---
 
@@ -142,6 +143,7 @@ Each folder is a small page with its own `index.html` and `style.css`.
 - **Oct 2:** Inheritance (`inherit`) and the start of the box model: height, width, padding, borders and border-radius.
 - **Oct 3:** Margin, `display` (inline / block / inline-block) and percentage units. Built the **Traffic Light** mini project.
 - **Oct 6:** Rebuilt the **Student Dashboard** as box model practice: cards, spacing and borders.
+- **Oct 7:** Relative units: `em` (and its snowballing effect in nested elements) vs `rem`.
 
 ## Learning approach
 
@@ -153,6 +155,7 @@ Each folder is a small page with its own `index.html` and `style.css`.
 
 - [x] CSS box model: height, width, padding, borders, margin
 - [x] Display: inline, block, inline-block
-- [ ] Units (em, rem, vh, vw), positioning and Flexbox
+- [x] Relative units: em, rem
+- [ ] vh/vw units, positioning and Flexbox
 - [ ] Style the HTML portfolio with CSS
 - [ ] JavaScript fundamentals
